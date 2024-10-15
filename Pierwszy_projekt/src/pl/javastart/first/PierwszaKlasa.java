@@ -10,7 +10,7 @@ public class PierwszaKlasa {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");
 		Frame frame = new Frame("Puste okno");
-        frame.setSize(500, 500);
+        frame.setSize(600, 600);
         frame.setVisible(true);
         
         frame.addWindowListener(new java.awt.event.WindowAdapter() {
