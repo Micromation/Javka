@@ -2,7 +2,7 @@ package pl.javastart.first;
 
 import java.awt.Frame;
 
-import javax.swing.JComponent;
+//import javax.swing.JComponent;
 
 public class PierwszaKlasa {
 
