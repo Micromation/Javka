@@ -1,0 +1,5 @@
+Jest metoda od wielu funkcji z Math.class są statyczne więc nie trzeba tworzyć obiektu
+import statyczny pozwala wskazać zasoby ze wskazanej klasy bez podawania klasy.
+
+import static java.lang.Math.sqrt - po wpisaniu zamiast a = Math.sqrt(9) można pisać a = sqrt(9)
+import static java.lang.Math.* - importuje wszystkie statyczne funkcje 
