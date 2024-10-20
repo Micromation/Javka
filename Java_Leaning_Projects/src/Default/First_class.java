@@ -16,7 +16,18 @@ public class First_class {
 		System.out.println(substringtest);
 		System.out.println(substringtestvol2);
 		double number = 9;
-		Math.pow(number, number);
-		System.out.println(Math.pow(number, number));
-	}
+		double result = Math.pow(number, number);
+		System.out.println(result);
+		
+		String season = "Winter";
+		String jakJest = switch (season) {
+		case "Winter":
+			yield "mrozi";
+			default:
+				yield "nico";
+		};
+		System.out.println(jakJest);
+		
+		}
+	
 }
