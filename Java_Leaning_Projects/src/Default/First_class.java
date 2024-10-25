@@ -28,6 +28,16 @@ public class First_class {
 		};
 		System.out.println(jakJest);
 		
+		int[] tablica = new int[10];
+        //wypełnienie tablicy
+        for (int i = 0; i < 10; i++) {
+            tablica[i] = i + 1;
+        }
+
+        //wyświetlenie przy użyciu pętli for each
+        for (int w : tablica) {
+            System.out.println(w);
+        }
 		}
 	
 }
